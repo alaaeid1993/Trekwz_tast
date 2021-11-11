@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "2e48649d-724c-4598-a409-31ee5e743825",
+		"name": "cat_fact_end",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://cat-fact.herokuapp.com?animal_type=cat&amount=2",
+					"protocol": "https",
+					"host": [
+						"cat-fact",
+						"herokuapp",
+						"com"
+					],
+					"query": [
+						{
+							"key": "animal_type",
+							"value": "cat"
+						},
+						{
+							"key": "amount",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
